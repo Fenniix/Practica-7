@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #693031;
+}
+.areaPrincipal{ /*Asi se define una clase*/
+    background-image: url("../img/fondo.jpg"); /*Agregar fondo de imagen al div*/
+    background-repeat: no-repeat; /*Permitir o no que se repita una imagen*/
+    width: 100%;
+    height: auto;
+    opacity: 3.0; /*Opacidad de la imagen*/
+    -webkit-background-size: 100% 100%; 
+    -moz-background-size: 100% 100%; 
+    -o-background-size: 100% 100%; 
+    background-size: 100% 100%;
+}
+#encabezado{
+    background: #7D4850;
+    height: 240px;
+    text-align: center;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+}
+.PiePagina{
+    width: 100%; /*Ancho*/ 
+    height: 100px; /*Alto*/
+    background:#15101b; /*Color de fondo*/
+    color: white; /*Color de la letra dentro de la clase*/
+    bottom: 0; /*Espacio de separacion parte inferior*/
+    position: fixed;
+    left: 0; /*Alieacion de contenidos a la izquierda*/
+}
+#menu{ /*identificador*/
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111111;
+}
+#datos{
+    width: 80%;
+    background-color: #693031;
+    height: 600px;
+    margin: auto;
+    opacity: 1;
+    color: white;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#idinicio{
+    background-color: #494A49;
+}
+#idnosotros{
+    background-color: #494A49;
+}
+#idnuestros{
+    background-color: #494A49;
+}
+#idgaleria{
+    background-color: #494A49;
+}
+#idcontacto{
+    background-color: #494A49;
+}
